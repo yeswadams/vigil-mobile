@@ -23,6 +23,13 @@ export default function App() {
           Sign Up
         </Text>
       </Link>
+      
+      <Link href={{
+        pathname: "/subscriptions/[id]",
+        params: { id: "spotify" },
+      }}>
+        Subscriptions
+      </Link>
     </View>
   );
 }
